@@ -1,2 +1,2 @@
-mongodb developer trainging repo
+mongodb developer training repo
 
