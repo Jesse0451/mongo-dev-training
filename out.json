@@ -1,0 +1,11 @@
+MongoDB shell version v4.0.11
+connecting to: mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d063a590-81e2-420e-91df-5760c3ed2f92") }
+MongoDB server version: 4.0.11
+Server has startup warnings: 
+2019-08-06T11:07:16.807+1000 I CONTROL  [initandlisten] 
+2019-08-06T11:07:16.807+1000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-08-06T11:07:16.807+1000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-08-06T11:07:16.807+1000 I CONTROL  [initandlisten] 
+test@DESKTOP-B2MAG1J$ db.routes.aggregate([onlyLuft, leavesBerlin, graphLookup])load("graphLookup.js")db.routes.aggregate([onlyLuft, leavesBerlin, graphLookup])load("graphLookup.js")load("graphLookup.js")^C
+bye
