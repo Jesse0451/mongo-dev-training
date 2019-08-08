@@ -68,5 +68,9 @@ allStuff = db.stuff.find()
 
 
 
+db.sensor_readings.createIndex({active:1,tstamp:1})
+
+
+
 
 

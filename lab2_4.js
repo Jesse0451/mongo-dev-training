@@ -14,3 +14,14 @@ ex6 = db.stories.find(
     'topic.name' : "Comedy"
   } 
 )
+
+
+
+db.companies.insertMany(
+[ 
+  { name: "Wetpaint", headline : "What is the air-speed velocity of an unladen swallow?" },
+  { name: "Cisco", heaadline : "What do you mean? An African or a European swallow?"},
+  { name: "SpinVox", headline : "Huh? I... I don’t know that."},
+  { name: "OpenX", headline : "You’re using coconuts!" },
+  { name: "Plaxo", headline : "What? A swallow carrying a coconut?" }
+])
